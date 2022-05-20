@@ -1,2 +1,2 @@
 # Quantus
-A gravity based space exploration game
+A gravity based space exploration game.
