@@ -2,13 +2,21 @@
 
 - GameEngine: handles all of the generic work, such as creating
   the canvas, drawing items, and handling physics
+
   - Render Engine
     - camera and objects to render
   - Physics System
     - uses law of gravitation, simulates movement
     - emits collision events
   - Event System
-    - registers events based 
+    - registers events based on a event name and function handler
+    - allows events to be triggered or listened for
+
+- ContentManager: contains all the logic necessary for loading assets such as images or sounds
+
+  - stores loaded assets
+  - load asset
+  - access asset
 
 - GameObject: generic class for all game objects
 
@@ -19,7 +27,7 @@
   - all information to perform physics
   - either a mass and radius/shape or a custom physics update function
 - EventComponent
-  - provides a way to register functions as event handlers, for keypresses
+  - provides a way to register functions as event handlers, for key presses
     of for physics events (or render events?)
 
 # Runtime Order
